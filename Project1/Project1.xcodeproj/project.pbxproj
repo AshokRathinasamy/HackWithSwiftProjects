@@ -13,6 +13,12 @@
 		F9092224272D77EA0032A294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9092222272D77EA0032A294 /* Main.storyboard */; };
 		F9092226272D77ED0032A294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9092225272D77ED0032A294 /* Assets.xcassets */; };
 		F9092229272D77ED0032A294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9092227272D77ED0032A294 /* LaunchScreen.storyboard */; };
+		F9092237272D7EBE0032A294 /* nssl0041.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F9092232272D7EBE0032A294 /* nssl0041.jpeg */; };
+		F9092238272D7EBE0032A294 /* nssl0034.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F9092233272D7EBE0032A294 /* nssl0034.jpeg */; };
+		F9092239272D7EBE0032A294 /* nssl0043.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F9092234272D7EBE0032A294 /* nssl0043.jpeg */; };
+		F909223A272D7EBE0032A294 /* nssl0042.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F9092235272D7EBE0032A294 /* nssl0042.jpeg */; };
+		F909223B272D7EBE0032A294 /* nssl0033.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F9092236272D7EBE0032A294 /* nssl0033.jpeg */; };
+		F909223E272D88710032A294 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909223D272D88710032A294 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		F9092225272D77ED0032A294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9092228272D77ED0032A294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F909222A272D77ED0032A294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9092232272D7EBE0032A294 /* nssl0041.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpeg; sourceTree = "<group>"; };
+		F9092233272D7EBE0032A294 /* nssl0034.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpeg; sourceTree = "<group>"; };
+		F9092234272D7EBE0032A294 /* nssl0043.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpeg; sourceTree = "<group>"; };
+		F9092235272D7EBE0032A294 /* nssl0042.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpeg; sourceTree = "<group>"; };
+		F9092236272D7EBE0032A294 /* nssl0033.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpeg; sourceTree = "<group>"; };
+		F909223D272D88710032A294 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +72,25 @@
 				F909221E272D77EA0032A294 /* SceneDelegate.swift */,
 				F9092220272D77EA0032A294 /* ViewController.swift */,
 				F9092222272D77EA0032A294 /* Main.storyboard */,
+				F909223D272D88710032A294 /* DetailViewController.swift */,
 				F9092225272D77ED0032A294 /* Assets.xcassets */,
 				F9092227272D77ED0032A294 /* LaunchScreen.storyboard */,
 				F909222A272D77ED0032A294 /* Info.plist */,
+				F9092231272D7EBE0032A294 /* Content */,
 			);
 			path = Project1;
+			sourceTree = "<group>";
+		};
+		F9092231272D7EBE0032A294 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				F9092232272D7EBE0032A294 /* nssl0041.jpeg */,
+				F9092233272D7EBE0032A294 /* nssl0034.jpeg */,
+				F9092234272D7EBE0032A294 /* nssl0043.jpeg */,
+				F9092235272D7EBE0032A294 /* nssl0042.jpeg */,
+				F9092236272D7EBE0032A294 /* nssl0033.jpeg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9092229272D77ED0032A294 /* LaunchScreen.storyboard in Resources */,
+				F9092238272D7EBE0032A294 /* nssl0034.jpeg in Resources */,
+				F9092239272D7EBE0032A294 /* nssl0043.jpeg in Resources */,
+				F909223A272D7EBE0032A294 /* nssl0042.jpeg in Resources */,
 				F9092226272D77ED0032A294 /* Assets.xcassets in Resources */,
+				F9092237272D7EBE0032A294 /* nssl0041.jpeg in Resources */,
 				F9092224272D77EA0032A294 /* Main.storyboard in Resources */,
+				F909223B272D7EBE0032A294 /* nssl0033.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +171,7 @@
 				F9092221272D77EA0032A294 /* ViewController.swift in Sources */,
 				F909221D272D77EA0032A294 /* AppDelegate.swift in Sources */,
 				F909221F272D77EA0032A294 /* SceneDelegate.swift in Sources */,
+				F909223E272D88710032A294 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
